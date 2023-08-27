@@ -25,7 +25,7 @@ for i in range(20):
     data = group.reassign(data, averages)
     data = group.remove_groups(data)
 scatterTurtle.color("black")
-Scatter.draw_group(averages, scatterTurtle)
+Scatter.draw_group(group, scatterTurtle)
 turtle.colormode(255)
 for group in data:
     scatterTurtle.color(randint(0,255),randint(0,255),randint(0,255))
