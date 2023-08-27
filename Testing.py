@@ -1,5 +1,5 @@
-from . import data_generation as generate
-from . import mean_grouping as group
+import data_generation as generate
+import mean_grouping as group
 from Data_Display import Scatter
 from random import randint
 import turtle
